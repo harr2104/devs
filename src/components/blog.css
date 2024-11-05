@@ -1,0 +1,70 @@
+.containerrr{
+    margin-left: 190px;
+    position: relative;
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    gap: 20px;
+   
+}
+
+.containerrr .cards {
+    position: relative;
+    max-width: 300px;
+    height: 215px;
+    background: #fff;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display : flex;
+    flex-direction: column;
+    box-shadow: 0 5px rgba(0,0,0,0.5);
+    transition: 0.3s ease-in-out;
+
+}
+
+.containerrr .cards:hover{
+    height: 420px;
+}
+
+.containerrr .cards .imgBx{
+    position :relative;
+    width: 260px;
+    height: 260px;
+    top: -60px;
+    z-index: 1;
+  
+ 
+}
+
+.containerrr .cardss .imgBX img {
+
+    border-radius: 7px;
+}
+
+.containerrr .cards .content{
+    position: relative;
+    margin-top: -40px;
+    padding: 10px 15px;
+    justify-content:center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+    
+  
+}
+
+.containerrr .cards:hover .content{
+    visibility: visible;
+    opacity :1;
+    margin-top: -40px;
+    transition-delay: 0.3s;
+    color: #111;
+}
+.containerrr .cards .imgBx img {
+    border-radius: 5px;
+  
+}
