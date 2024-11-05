@@ -24,6 +24,7 @@ import Announcement from './Announcement'
 
        <Blog/>
        <br></br>
+       <h1 style={{marginBottom:'-10px'}}>Announcement</h1>
        <Announcement/>
     </>
   )

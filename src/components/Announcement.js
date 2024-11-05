@@ -40,24 +40,7 @@ const Announcement = () => {
                         <div className="icon">2</div>
                         <div className="description">
                             <h4>Peer-To-Peer</h4>
-                            <a href="">Join Now!</a>
-                        </div>
-                    </div>
-                </label>
-
-                <input
-                    type="radio"
-                    name="slide"
-                    id="c3"
-                    checked={selectedCard === 'c3'}
-                    onChange={handleCardChange}
-                />
-                <label htmlFor="c3" className="card">
-                    <div className="row">
-                        <div className="icon">3</div>
-                        <div className="description">
-                            <h4>Another Announcement</h4>
-                            <a href="">Learn More!</a>
+                            <a href=""  >Join Now!</a>
                         </div>
                     </div>
                 </label>
